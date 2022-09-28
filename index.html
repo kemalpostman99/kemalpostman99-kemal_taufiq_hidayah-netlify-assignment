@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+           
+            <nav class="container mx-auto px-6 py-2 flex justify-between items-center">
+                <header>
+                    <a class="font-bold text-2xl lg:text-4xl" href="#">KTH</a>            
+                </header> 
+                
+                <ul class="inline-flex flex-wrap" >
+                <li><a class="px-4 hover:text-orange-500" href="#about">About</a></li>
+                <li><a class="px-4 hover:text-orange-500" href="#education">Education</a></li>
+                <li><a class="px-4 hover:text-orange-500" href="#project">Project</a></li>
+                <li><a class="px-4 hover:text-orange-500" href="#contact">Contact</a></li>
+                </ul>
+            
+            </nav>
+           
+        <main>
+            <div class="py-20 bg-gradient-to-r from-violet-500 to-indigo-500 md:bg-gradient-to-t">
+            <section class="grid justify-items-center grid-cols-1 md:grid-cols-2 items-center">
+                <div><img class="w-96 h-96 rounded-full" src="Foto.JPG"/></div>    
+                <div>
+                <h1 class="text-4xl font-bold mb-2 text-white">Hi all I'm Kemal</h1>
+                <p class="text-2xl mb-8 text-gray-200">A passionate Backend End Engineering developer having an Experience of building web application with Java and Golang. </p>
+                <div class="flex justify-center">
+                <a href="https://github.com/kemalpostman99" target="_blank"><img class="rounded-full" src="https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" height="40" width="50px"/></a>
+                <a href="https://www.linkedin.com/in/kemal-taufiq/" target="_blank"><img class="h-25 w-45 mt-5 ml-8 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1280px-LinkedIn_Logo.svg.png" height="40" width="50px"/></a>               
+            </div>
+            </div>
+                </div>
+            </section>
+
+            <section class="grid justify-items-center mb-20 md:grid-cols-1">
+                <h2 class="text-4xl font-bold mb-2 text-black text-center" id="about">About Me</h2>
+                <p class="text-2xl mb-8 text-black-200 text-center">I am a 5th semester information technology student in Trilogi University. I have an enthusiastic learning spirit,
+                    able to face obstacles and have good communication. Students with a strong background in the information
+                    technology environment. Works well independently to handle assignments and always ready to go beyond basic
+                    tasks. Quick learner with good computer skills.
+                </p>
+            </section>
+
+            <section class="grid justify-items-center mb-20 md:grid-cols-1">
+                <h2 class="text-4xl font-bold mb-2 text-black text-center" id="education">Education</h2>
+                <ul>
+                    <li class="text-xl mb-8 text-black-200 text-center">1. Trilogi University 
+                        <p>Bachelor technology information (Present)</p>
+                    </li>
+                    <li class="text-xl mb-8 text-black-200 text-center">2. CEP-CCIT FTUI 
+                        <p>Associate technology information (2018-2021)</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="grid justify-items-center mb-20 md:grid-cols-1">
+                <h2 class="text-4xl font-bold mb-2 text-black text-center" id="project">Project</h2>
+                <ul>
+                    <li class="text-xl mb-8 text-black-200 text-center">
+                        1. Jacket Store
+                            <p class="mb-8">Create Cashier System for jacket store using java</p>
+                            <img class="mx-auto w-96 h-96" src="jaket.png" />
+                    </li>
+                    <li class="text-xl mb-8 text-black-200 text-center">
+                        2. Burger Comunity
+                            <p class="mb-8">Create responsive web with html and css</p>
+                            <img class="mx-auto w-96 h-96" src="burger.png" width="200"/>
+                    </li>
+                    <li class="text-xl mb-8 text-black-200 text-center">
+                        3. library
+                            <p class="mb-8">Create Library management database with mySql</p>
+                            <img class="mx-auto w-96 h-96" src="perpus.png" width="200"/>
+                    </li>
+                </ul>
+            </section>
+            
+            <section class="grid justify-items-center mb-20 md:grid-cols-1">
+                <h2 class="text-4xl font-bold mb-2 text-black" id="contact">Contact Me!</h2>
+                <p class="text-xl mb-8 text-black-200">You Can Contact Me :</p>
+                <div class="flex justify-center">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/628108064495" target="_blank">
+                    <img width="40" alt="Chat on WhatsApp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png?20220228223904"/>
+                </a>
+                <a href="mailto: kemalpostman@gmail.com" target="_blank">
+                    <img class="ml-8" width="40" alt="Chat on Email" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"/>
+                </a>
+                </div>
+            </section>
+
+            <form class="grid justify-items-center mb-8 md:grid-cols-1">
+                <div>
+                <label class="block" for="your name">Your Name</label>
+                <input class="border-2 border-sky-600"/>
+                </div>
+                <div>
+                <label class="block" for="your email">Your Email</label>
+                <input class="border-2 border-sky-600"/>
+                </div>
+                <label class="block" for="Message">Message</label>
+                <div>
+                <textarea class="border-2 border-sky-600" id="message" rows="3" cols="50">
+                    Please Write in here...
+                </textarea>
+            </div>
+            <div>
+                <button class="bg-green-600 rounded">Submit</button>
+            </div>
+            </form>
+        </main>
+        <footer class="py-2 bg-gradient-to-r from-violet-500 to-indigo-500 md:bg-gradient-to-t text-center flex-wrap">
+            &copy;Kemal Taufiq Hidayah.2022
+        </footer>
+    
+    </body>
+</html>
